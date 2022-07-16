@@ -1,0 +1,34 @@
+.Appbar {
+  background-color: rgba(0, 0, 255, 0.7);
+}
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  display: block;
+}
+.logo {
+  font-size: 22px;
+}
+.search {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: '100%';
+  color: black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 3px 10px;
+}
+.searchIcon {
+  align-self: center;
+  margin-right: 5px;
+  padding-top: 5px;
+}

@@ -1,0 +1,13 @@
+.subtitle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chip {
+  margin: 20px 0px;
+}
+
+.chipItem {
+  margin: 5px;
+}

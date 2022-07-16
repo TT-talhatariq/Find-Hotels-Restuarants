@@ -1,0 +1,42 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.formControl {
+}
+.progress {
+  display: flex;
+  margin: 15px 0px;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+}
+.select {
+  width: 100%;
+
+  font-size: 16px;
+}
+.filter {
+  margin: 10px 0px;
+}
+@media all and (max-width: 900px) {
+  .container {
+    height: auto;
+    overflow: hidden;
+  }
+}
