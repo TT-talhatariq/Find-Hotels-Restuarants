@@ -72,13 +72,17 @@ const List = (props) => {
                   </Select>
                 </FormControl>
               </div>
-              <Grid container spacing={3}>
-                {props.places?.map((place, i) => (
-                  <Grid item xs={12} key={i}>
-                    <PlaceDetail place={place} />
-                  </Grid>
-                ))}
-              </Grid>
+              {props.places.length ? (
+                <Grid container spacing={3}>
+                  {props.places?.map((place, i) => (
+                    <Grid item xs={12} key={i}>
+                      <PlaceDetail place={place} />
+                    </Grid>
+                  ))}
+                </Grid>
+              ) : (
+                <Typography variant='h5'>No Best results found</Typography>
+              )}
             </>
           )}
         </div>
