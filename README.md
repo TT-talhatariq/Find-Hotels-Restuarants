@@ -1,7 +1,7 @@
 # Find Places
 I developed the Find Places app using Google Maps and some APIs. It will suggest you all the restaurants, hotels and attractions around you. 
 <br>
-[Live Site](https://62d2870643a4526a12973043--find-places-and-restruants.netlify.app)
+[Live Site](https://find-places-and-restruants.netlify.app)
 ![image](img.png)
 
 
