@@ -1,7 +1,7 @@
-# COVID-19 Tracker
-I developed the Covid-19 Tracker of all countries of globe. It shows the number of Infected Peoples, Recoveries and Deaths due to COVID, and also some other analysis of overall world or of some specific country.
+# Find Places
+I developed the Find Places app using Google Maps and some APIs. It will suggest you all the restaurants, hotels and attractions around you. 
 <br>
-[Live Site](https://covid-tracker-react-tt.netlify.app)
+[Live Site](https://62d2870643a4526a12973043--find-places-and-restruants.netlify.app)
 ![image](img.png)
 
 
