@@ -45,10 +45,9 @@ const PlaceDetail = ({ place }) => {
                 {place.ranking}
               </Typography>
             </Box>
+            {place?.awards && <Typography variant='h6'> Awards </Typography>}
             {place?.awards?.map((award) => (
               <Box gutterBottom>
-                <Typography variant='h6'> Awards </Typography>
-
                 <Typography
                   className={classes.subtitle}
                   variant='subtitle2'
