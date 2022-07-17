@@ -12,7 +12,8 @@
 /build
 #api
 /src/api
-
+/env
+env
 # misc
 .DS_Store
 .env

@@ -43,7 +43,7 @@ const App = () => {
         })
         .catch((error) => {
           setIsError(true)
-          setIsLoading(false)
+          setIsLoading(false)p
           console.log(error.message)
         })
     }

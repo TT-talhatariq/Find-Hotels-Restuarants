@@ -72,7 +72,7 @@ const List = (props) => {
                   </Select>
                 </FormControl>
               </div>
-              {props.places.length ? (
+              {props.places.length ?n (
                 <Grid container spacing={3}>
                   {props.places?.map((place, i) => (
                     <Grid item xs={12} key={i}>
